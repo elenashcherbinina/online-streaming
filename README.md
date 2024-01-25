@@ -6,17 +6,21 @@ The homepage contains navigation, the main banner, a list of new films and a rat
 
 ## Links:
 
-Deploy on: <a href="https://airdrophunter-page.vercel.app/">Vercel<a>
+Deploy on: <a href="https://online-streaming.vercel.app/">Vercel<a>
 
 ## Screenshots:
 
 Homepage:
 
-![Home-Page]()
+![Banner](/public/home-banner.png)
+![New](/public/home-new.png)
+![Top](/public/home-top.png)
 
 Movie-page:
 
-![Hidden](/public/assets/news%20hidden.png)
+![Banner](/public/movie-info.png)
+![Description](/public/movie-description.png)
+![Similar](/public/movie-similar.png)
 
 ## Stack:
 
