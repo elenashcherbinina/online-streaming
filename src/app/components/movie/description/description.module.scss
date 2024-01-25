@@ -1,0 +1,18 @@
+.description {
+  max-width: 1641px;
+  margin-top: 60px;
+
+  .text {
+    margin-bottom: 24px;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .important {
+    display: flex;
+    gap: 20px;
+    color: var(--gray-medium);
+    font-size: 28px;
+    font-weight: 400;
+  }
+}

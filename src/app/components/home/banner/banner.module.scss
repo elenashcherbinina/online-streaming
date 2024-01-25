@@ -1,0 +1,33 @@
+.banner {
+  position: relative;
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+  .img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  .content {
+    width: 890px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+  }
+
+  .text {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+}

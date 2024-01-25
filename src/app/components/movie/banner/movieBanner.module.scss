@@ -1,0 +1,44 @@
+.banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.content {
+  max-width: 735px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 90px;
+
+  .badges {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-size: 28px;
+    font-weight: 400;
+
+    .raiting {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 75px;
+      height: 48px;
+      padding: 14px 22px;
+      border-radius: 12px;
+      background-color: var(--white-light);
+    }
+  }
+
+  .subtitle {
+    margin-bottom: 112px;
+    font-size: 28px;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 16px;
+  }
+}

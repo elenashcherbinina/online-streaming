@@ -1,0 +1,51 @@
+.top {
+  margin: 110px 0 200px 215px;
+
+  h2 {
+    margin-bottom: 33px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  h2 span {
+    padding-right: 20px;
+    font-size: 52px;
+    font-style: italic;
+    font-weight: 900;
+    color: var(--main-black);
+    background: var(--gradient-blue);
+    background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    text-transform: uppercase;
+  }
+
+  .slider {
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+
+    span {
+      font-size: 360px;
+      font-style: italic;
+      font-weight: 900;
+      color: var(--main-black);
+      background: var(--gradient-blue);
+      background-clip: text;
+      -webkit-text-stroke: 4px transparent;
+      margin-left: -55px;
+    }
+  }
+
+  .card {
+    cursor: pointer;
+  }
+
+  .card:hover {
+    opacity: 0.7;
+  }
+}

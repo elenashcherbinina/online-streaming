@@ -1,0 +1,31 @@
+.new {
+  margin-left: 215px;
+  margin-top: 70px;
+  max-width: 1725px;
+
+  h2 {
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 44px;
+  }
+
+  .card {
+    opacity: ease-in-out 100ms;
+
+    &:hover,
+    &:focus {
+      opacity: 0.7;
+    }
+  }
+
+  .title {
+    margin-top: 20px;
+    font-size: 28px;
+  }
+}
